@@ -26,10 +26,7 @@
 		5B37CB431ED2DA6800C5CDBA /* AWSFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA0D1ED2D80A00C5CDBA /* AWSFMDatabasePool.m */; };
 		5B37CB441ED2DA6800C5CDBA /* AWSFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA0F1ED2D80A00C5CDBA /* AWSFMDatabaseQueue.m */; };
 		5B37CB451ED2DA6800C5CDBA /* AWSFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA121ED2D80A00C5CDBA /* AWSFMResultSet.m */; };
-		5B37CB461ED2DA6800C5CDBA /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA141ED2D80A00C5CDBA /* README.markdown */; };
 		5B37CB471ED2DA6800C5CDBA /* AWSGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA171ED2D80A00C5CDBA /* AWSGZIP.m */; };
-		5B37CB481ED2DA6800C5CDBA /* LICENCE.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA181ED2D80A00C5CDBA /* LICENCE.md */; };
-		5B37CB491ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA191ED2D80A00C5CDBA /* README.md */; };
 		5B37CB4A1ED2DA6800C5CDBA /* AWSKSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA1D1ED2D80A00C5CDBA /* AWSKSReachability.m */; };
 		5B37CB4B1ED2DA6800C5CDBA /* AWSDDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA211ED2D80A00C5CDBA /* AWSDDAbstractDatabaseLogger.m */; };
 		5B37CB4C1ED2DA6800C5CDBA /* AWSDDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA231ED2D80A00C5CDBA /* AWSDDASLLogCapture.m */; };
@@ -49,17 +46,14 @@
 		5B37CB5A1ED2DA6800C5CDBA /* AWSMTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA461ED2D80A00C5CDBA /* AWSMTLValueTransformer.m */; };
 		5B37CB5B1ED2DA6800C5CDBA /* AWSEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA4A1ED2D80A00C5CDBA /* AWSEXTRuntimeExtensions.m */; };
 		5B37CB5C1ED2DA6800C5CDBA /* AWSEXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA4C1ED2D80A00C5CDBA /* AWSEXTScope.m */; };
-		5B37CB5D1ED2DA6800C5CDBA /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA4E1ED2D80A00C5CDBA /* LICENSE.md */; };
 		5B37CB5E1ED2DA6800C5CDBA /* NSArray+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA501ED2D80A00C5CDBA /* NSArray+AWSMTLManipulationAdditions.m */; };
 		5B37CB5F1ED2DA6800C5CDBA /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA521ED2D80A00C5CDBA /* NSDictionary+AWSMTLManipulationAdditions.m */; };
 		5B37CB601ED2DA6800C5CDBA /* NSError+AWSMTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA541ED2D80A00C5CDBA /* NSError+AWSMTLModelException.m */; };
 		5B37CB611ED2DA6800C5CDBA /* NSObject+AWSMTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA561ED2D80A00C5CDBA /* NSObject+AWSMTLComparisonAdditions.m */; };
 		5B37CB621ED2DA6800C5CDBA /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA581ED2D80A00C5CDBA /* NSValueTransformer+AWSMTLInversionAdditions.m */; };
 		5B37CB631ED2DA6800C5CDBA /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA5A1ED2D80A00C5CDBA /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */; };
-		5B37CB641ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA5B1ED2D80A00C5CDBA /* README.md */; };
 		5B37CB651ED2DA6800C5CDBA /* AWSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA5E1ED2D80A00C5CDBA /* AWSNetworking.m */; };
 		5B37CB661ED2DA6800C5CDBA /* AWSURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA601ED2D80A00C5CDBA /* AWSURLSessionManager.m */; };
-		5B37CB671ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA631ED2D80A00C5CDBA /* README.md */; };
 		5B37CB681ED2DA6800C5CDBA /* AWSSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA661ED2D80A00C5CDBA /* AWSSerialization.m */; };
 		5B37CB691ED2DA6800C5CDBA /* AWSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA681ED2D80A00C5CDBA /* AWSURLRequestRetryHandler.m */; };
 		5B37CB6A1ED2DA6800C5CDBA /* AWSURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA6A1ED2D80A00C5CDBA /* AWSURLRequestSerialization.m */; };
@@ -74,16 +68,12 @@
 		5B37CB731ED2DA6800C5CDBA /* AWSTMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA811ED2D80A00C5CDBA /* AWSTMCache.m */; };
 		5B37CB741ED2DA6800C5CDBA /* AWSTMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA841ED2D80A00C5CDBA /* AWSTMDiskCache.m */; };
 		5B37CB751ED2DA6800C5CDBA /* AWSTMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA861ED2D80A00C5CDBA /* AWSTMMemoryCache.m */; };
-		5B37CB761ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA881ED2D80A00C5CDBA /* README.md */; };
 		5B37CB771ED2DA6800C5CDBA /* AWSUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA8B1ED2D80A00C5CDBA /* AWSUICKeyChainStore.m */; };
-		5B37CB781ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA8D1ED2D80A00C5CDBA /* README.md */; };
 		5B37CB791ED2DA6800C5CDBA /* AWSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA901ED2D80A00C5CDBA /* AWSCategory.m */; };
 		5B37CB7A1ED2DA6800C5CDBA /* AWSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA921ED2D80A00C5CDBA /* AWSLogging.m */; };
 		5B37CB7B1ED2DA6800C5CDBA /* AWSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA941ED2D80A00C5CDBA /* AWSModel.m */; };
 		5B37CB7C1ED2DA6800C5CDBA /* AWSSynchronizedMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA961ED2D80A00C5CDBA /* AWSSynchronizedMutableDictionary.m */; };
 		5B37CB7D1ED2DA6800C5CDBA /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA991ED2D80A00C5CDBA /* AWSXMLDictionary.m */; };
-		5B37CB7E1ED2DA6800C5CDBA /* LICENCE.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA9A1ED2D80A00C5CDBA /* LICENCE.md */; };
-		5B37CB7F1ED2DA6800C5CDBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA9B1ED2D80A00C5CDBA /* README.md */; };
 		5B37CB801ED2DA6800C5CDBA /* AWSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37CA9E1ED2D80A00C5CDBA /* AWSXMLWriter.m */; };
 		5B37CB831ED2DA7D00C5CDBA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37CB821ED2DA7D00C5CDBA /* libsqlite3.tbd */; };
 		5B37CB851ED2DA8600C5CDBA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37CB841ED2DA8600C5CDBA /* libz.tbd */; };
@@ -1419,10 +1409,7 @@
 				5B37CB431ED2DA6800C5CDBA /* AWSFMDatabasePool.m in Sources */,
 				5B37CB441ED2DA6800C5CDBA /* AWSFMDatabaseQueue.m in Sources */,
 				5B37CB451ED2DA6800C5CDBA /* AWSFMResultSet.m in Sources */,
-				5B37CB461ED2DA6800C5CDBA /* README.markdown in Sources */,
 				5B37CB471ED2DA6800C5CDBA /* AWSGZIP.m in Sources */,
-				5B37CB481ED2DA6800C5CDBA /* LICENCE.md in Sources */,
-				5B37CB491ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB4A1ED2DA6800C5CDBA /* AWSKSReachability.m in Sources */,
 				5B37CB4B1ED2DA6800C5CDBA /* AWSDDAbstractDatabaseLogger.m in Sources */,
 				5B37CB4C1ED2DA6800C5CDBA /* AWSDDASLLogCapture.m in Sources */,
@@ -1442,17 +1429,14 @@
 				5B37CB5A1ED2DA6800C5CDBA /* AWSMTLValueTransformer.m in Sources */,
 				5B37CB5B1ED2DA6800C5CDBA /* AWSEXTRuntimeExtensions.m in Sources */,
 				5B37CB5C1ED2DA6800C5CDBA /* AWSEXTScope.m in Sources */,
-				5B37CB5D1ED2DA6800C5CDBA /* LICENSE.md in Sources */,
 				5B37CB5E1ED2DA6800C5CDBA /* NSArray+AWSMTLManipulationAdditions.m in Sources */,
 				5B37CB5F1ED2DA6800C5CDBA /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */,
 				5B37CB601ED2DA6800C5CDBA /* NSError+AWSMTLModelException.m in Sources */,
 				5B37CB611ED2DA6800C5CDBA /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
 				5B37CB621ED2DA6800C5CDBA /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */,
 				5B37CB631ED2DA6800C5CDBA /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */,
-				5B37CB641ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB651ED2DA6800C5CDBA /* AWSNetworking.m in Sources */,
 				5B37CB661ED2DA6800C5CDBA /* AWSURLSessionManager.m in Sources */,
-				5B37CB671ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB681ED2DA6800C5CDBA /* AWSSerialization.m in Sources */,
 				5B37CB691ED2DA6800C5CDBA /* AWSURLRequestRetryHandler.m in Sources */,
 				5B37CB6A1ED2DA6800C5CDBA /* AWSURLRequestSerialization.m in Sources */,
@@ -1467,16 +1451,12 @@
 				5B37CB731ED2DA6800C5CDBA /* AWSTMCache.m in Sources */,
 				5B37CB741ED2DA6800C5CDBA /* AWSTMDiskCache.m in Sources */,
 				5B37CB751ED2DA6800C5CDBA /* AWSTMMemoryCache.m in Sources */,
-				5B37CB761ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB771ED2DA6800C5CDBA /* AWSUICKeyChainStore.m in Sources */,
-				5B37CB781ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB791ED2DA6800C5CDBA /* AWSCategory.m in Sources */,
 				5B37CB7A1ED2DA6800C5CDBA /* AWSLogging.m in Sources */,
 				5B37CB7B1ED2DA6800C5CDBA /* AWSModel.m in Sources */,
 				5B37CB7C1ED2DA6800C5CDBA /* AWSSynchronizedMutableDictionary.m in Sources */,
 				5B37CB7D1ED2DA6800C5CDBA /* AWSXMLDictionary.m in Sources */,
-				5B37CB7E1ED2DA6800C5CDBA /* LICENCE.md in Sources */,
-				5B37CB7F1ED2DA6800C5CDBA /* README.md in Sources */,
 				5B37CB801ED2DA6800C5CDBA /* AWSXMLWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
