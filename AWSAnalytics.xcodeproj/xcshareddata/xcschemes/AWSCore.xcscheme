@@ -28,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B633DA91ED7000B0048F4AB"
+               BuildableName = "AWSCoreTests.xctest"
+               BlueprintName = "AWSCoreTests"
+               ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B633E2D1ED706160048F4AB"
+               BuildableName = "AWSCoreUnitTests.xctest"
+               BlueprintName = "AWSCoreUnitTests"
+               ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B37CB1C1ED2D82200C5CDBA"
+            BuildableName = "AWSCore.framework"
+            BlueprintName = "AWSCore"
+            ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,6 +80,13 @@
             ReferencedContainer = "container:AWSAnalytics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "ENTITLEMENTS_REQUIRED"
+            value = "true"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
