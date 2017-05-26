@@ -28,7 +28,46 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B633E531ED8118A0048F4AB"
+               BuildableName = "AWSMobileAnalyticsLegacyTests.xctest"
+               BlueprintName = "AWSMobileAnalyticsLegacyTests"
+               ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B633E621ED811A40048F4AB"
+               BuildableName = "AWSMobileAnalyticsTests.xctest"
+               BlueprintName = "AWSMobileAnalyticsTests"
+               ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B633E711ED811C40048F4AB"
+               BuildableName = "AWSMobileAnalyticsUnitTests.xctest"
+               BlueprintName = "AWSMobileAnalyticsUnitTests"
+               ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B37CB2A1ED2D8C300C5CDBA"
+            BuildableName = "AWSMobileAnalytics.framework"
+            BlueprintName = "AWSMobileAnalytics"
+            ReferencedContainer = "container:AWSAnalytics.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,6 +90,13 @@
             ReferencedContainer = "container:AWSAnalytics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "ENTITLEMENTS_REQUIRED"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
