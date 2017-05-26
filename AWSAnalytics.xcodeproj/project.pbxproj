@@ -309,7 +309,6 @@
 		5B633E451ED706B70048F4AB /* AWSGeneralCognitoIdentityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633E411ED706B70048F4AB /* AWSGeneralCognitoIdentityTests.m */; };
 		5B633E461ED706B70048F4AB /* AWSGeneralSTSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633E421ED706B70048F4AB /* AWSGeneralSTSTests.m */; };
 		5B633E471ED706B70048F4AB /* AWSServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633E431ED706B70048F4AB /* AWSServiceTests.m */; };
-		5B633E4A1ED7FBEE0048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633E491ED7FBEE0048F4AB /* credentials.json */; };
 		5B633E4E1ED802A20048F4AB /* AWSTestUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633DD51ED700E10048F4AB /* AWSTestUtility.m */; };
 		5B633E4F1ED802C90048F4AB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B633DD91ED700E10048F4AB /* libOCMock.a */; };
 		5B633ECA1ED812310048F4AB /* AIActiveSessionStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633E7E1ED812310048F4AB /* AIActiveSessionStateTests.m */; };
@@ -357,14 +356,13 @@
 		5B633F231ED814F80048F4AB /* AWSMobileAnalyticsERSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633F201ED814F80048F4AB /* AWSMobileAnalyticsERSTests.m */; };
 		5B633F271ED815330048F4AB /* AWSTestUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633DD51ED700E10048F4AB /* AWSTestUtility.m */; };
 		5B633F281ED815470048F4AB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B633DD91ED700E10048F4AB /* libOCMock.a */; };
-		5B633F291ED815650048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633E491ED7FBEE0048F4AB /* credentials.json */; };
 		5B633F2E1ED815DA0048F4AB /* AWSGeneralMobileAnalyticsERSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633F2A1ED815970048F4AB /* AWSGeneralMobileAnalyticsERSTests.m */; };
 		5B633F301ED8160D0048F4AB /* AWSMobileAnalytics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B37CB2B1ED2D8C300C5CDBA /* AWSMobileAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B633F311ED816160048F4AB /* AWSCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B37CB1D1ED2D82200C5CDBA /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B633F321ED817250048F4AB /* AWSTestUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633DD51ED700E10048F4AB /* AWSTestUtility.m */; };
 		5B633F331ED817380048F4AB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B633DD91ED700E10048F4AB /* libOCMock.a */; };
-		5B633F341ED8174B0048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633E491ED7FBEE0048F4AB /* credentials.json */; };
 		5B633F371ED818BF0048F4AB /* AWSMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37CB2B1ED2D8C300C5CDBA /* AWSMobileAnalytics.framework */; };
+		5B633F3F1ED858070048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633F3E1ED858070048F4AB /* credentials.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -762,7 +760,6 @@
 		5B633E421ED706B70048F4AB /* AWSGeneralSTSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSGeneralSTSTests.m; sourceTree = "<group>"; };
 		5B633E431ED706B70048F4AB /* AWSServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSServiceTests.m; sourceTree = "<group>"; };
 		5B633E441ED706B70048F4AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B633E491ED7FBEE0048F4AB /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
 		5B633E541ED8118A0048F4AB /* AWSMobileAnalyticsLegacyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSMobileAnalyticsLegacyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B633E631ED811A40048F4AB /* AWSMobileAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSMobileAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B633E721ED811C40048F4AB /* AWSMobileAnalyticsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSMobileAnalyticsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -848,6 +845,7 @@
 		5B633F211ED814F80048F4AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B633F2A1ED815970048F4AB /* AWSGeneralMobileAnalyticsERSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSGeneralMobileAnalyticsERSTests.m; sourceTree = "<group>"; };
 		5B633F2B1ED815970048F4AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B633F3E1ED858070048F4AB /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1499,7 +1497,7 @@
 				5B633DEC1ED700E10048F4AB /* rest-json-output.json */,
 				5B633DED1ED700E10048F4AB /* rest-xml-input.json */,
 				5B633DEE1ED700E10048F4AB /* rest-xml-output.json */,
-				5B633E491ED7FBEE0048F4AB /* credentials.json */,
+				5B633F3E1ED858070048F4AB /* credentials.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2010,8 +2008,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B633E4A1ED7FBEE0048F4AB /* credentials.json in Resources */,
 				5B633E011ED700E10048F4AB /* query-output.json in Resources */,
+				5B633F3F1ED858070048F4AB /* credentials.json in Resources */,
 				5B633E041ED700E10048F4AB /* rest-xml-input.json in Resources */,
 				5B633DFF1ED700E10048F4AB /* json-output.json in Resources */,
 				5B633E051ED700E10048F4AB /* rest-xml-output.json in Resources */,
@@ -2028,7 +2026,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B633F341ED8174B0048F4AB /* credentials.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2036,7 +2033,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B633F291ED815650048F4AB /* credentials.json in Resources */,
 				5B633F221ED814F80048F4AB /* AWSiOSSDKv2AnalyticsTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3206,6 +3202,7 @@
 				5B633E5E1ED8118A0048F4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B633E6B1ED811A40048F4AB /* Build configuration list for PBXNativeTarget "AWSMobileAnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -3214,6 +3211,7 @@
 				5B633E6D1ED811A40048F4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B633E7A1ED811C40048F4AB /* Build configuration list for PBXNativeTarget "AWSMobileAnalyticsUnitTests" */ = {
 			isa = XCConfigurationList;
@@ -3222,6 +3220,7 @@
 				5B633E7C1ED811C40048F4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
