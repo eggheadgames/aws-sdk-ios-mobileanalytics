@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B10808D1EDC0FAC000562BB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633F401EDB34B50048F4AB /* credentials.json */; };
+		5B10808E1EDC0FB5000562BB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633F401EDB34B50048F4AB /* credentials.json */; };
 		5B37CB331ED2DA6800C5CDBA /* AWSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37C9E11ED2D80A00C5CDBA /* AWSCredentialsProvider.m */; };
 		5B37CB341ED2DA6800C5CDBA /* AWSIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37C9E31ED2D80A00C5CDBA /* AWSIdentityProvider.m */; };
 		5B37CB351ED2DA6800C5CDBA /* AWSSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37C9E51ED2D80A00C5CDBA /* AWSSignature.m */; };
@@ -362,7 +364,7 @@
 		5B633F321ED817250048F4AB /* AWSTestUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B633DD51ED700E10048F4AB /* AWSTestUtility.m */; };
 		5B633F331ED817380048F4AB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B633DD91ED700E10048F4AB /* libOCMock.a */; };
 		5B633F371ED818BF0048F4AB /* AWSMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37CB2B1ED2D8C300C5CDBA /* AWSMobileAnalytics.framework */; };
-		5B633F3F1ED858070048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633F3E1ED858070048F4AB /* credentials.json */; };
+		5B633F411EDB34B50048F4AB /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B633F401EDB34B50048F4AB /* credentials.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -845,7 +847,7 @@
 		5B633F211ED814F80048F4AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B633F2A1ED815970048F4AB /* AWSGeneralMobileAnalyticsERSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSGeneralMobileAnalyticsERSTests.m; sourceTree = "<group>"; };
 		5B633F2B1ED815970048F4AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B633F3E1ED858070048F4AB /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
+		5B633F401EDB34B50048F4AB /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1497,7 +1499,7 @@
 				5B633DEC1ED700E10048F4AB /* rest-json-output.json */,
 				5B633DED1ED700E10048F4AB /* rest-xml-input.json */,
 				5B633DEE1ED700E10048F4AB /* rest-xml-output.json */,
-				5B633F3E1ED858070048F4AB /* credentials.json */,
+				5B633F401EDB34B50048F4AB /* credentials.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2009,7 +2011,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B633E011ED700E10048F4AB /* query-output.json in Resources */,
-				5B633F3F1ED858070048F4AB /* credentials.json in Resources */,
+				5B633F411EDB34B50048F4AB /* credentials.json in Resources */,
 				5B633E041ED700E10048F4AB /* rest-xml-input.json in Resources */,
 				5B633DFF1ED700E10048F4AB /* json-output.json in Resources */,
 				5B633E051ED700E10048F4AB /* rest-xml-output.json in Resources */,
@@ -2026,6 +2028,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B10808D1EDC0FAC000562BB /* credentials.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2033,6 +2036,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B10808E1EDC0FB5000562BB /* credentials.json in Resources */,
 				5B633F221ED814F80048F4AB /* AWSiOSSDKv2AnalyticsTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
