@@ -1,2 +1,3 @@
 # aws-sdk-ios-mobileanalytics
-AWS iOS SDK for Mobile Analytics, and dependencies - Just the files that are needed for Analytics
+Mobile Analytics binaries from [AWS Mobile SDK for iOS](https://github.com/aws/aws-sdk-ios), and dependencies.
+
